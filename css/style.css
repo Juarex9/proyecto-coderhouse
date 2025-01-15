@@ -187,7 +187,22 @@ main .pregunta {
 }
 
 
-
+/**-----mapas.html------*/
+.mapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 10px;
+    gap: 20px;
+}
+.mapa h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 50px;
+    margin: 10px;
+}
 
 
 
@@ -251,3 +266,4 @@ main .pregunta {
         right: 30px;
     }
 }
+
