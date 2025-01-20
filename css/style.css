@@ -205,39 +205,39 @@ main .pregunta {
 }
 
 /**---------san-francisco--------*/
-.sfco{
+.lugares-recomendados{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
     padding: 10px;
 }
-.sfco .presentacion-sfco{
+.lugares-recomendados .presentacion{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 40px;
     font-size: 25px;
     text-align: center;
 }
-.sfco .texto-sfco{
+.lugares-recomendados .texto{
     margin: 10px;
     padding: 5px;
     font-weight: 30px;
-}
-.sfco .descripcion-sfco{
     font-size: 18px;
 }
-.sfco .titulo-sfco{
+.lugares-recomendados .descripcion{
+    font-size: 18px;
+}
+.lugares-recomendados .titulo{
     font-size: 22px;
     font-weight: 40px;
 }
-.sfco .indicacion-sfco{
+.lugares-recomendados .indicacion{
     font-size: 18px;
 }
-.sfco .hospedajes img{
+.lugares-recomendados .hospedajes img{
     width: 100%;
     height: 200px;
 }
-.sfco .hospedajes .tarjeta-sfco{
+.lugares-recomendados .hospedajes .tarjeta{
     font-size: 20px;
     width: 250px;
     height: 270px;
@@ -245,15 +245,15 @@ main .pregunta {
     text-align: center;
     margin: 10px;
 }
-.sfco .hospedajes .titulo-hostal{
+.lugares-recomendados .hospedajes .titulo-hostal{
     padding: 10px;
 }
-.sfco .hospedajes{
+.lugares-recomendados .hospedajes{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
 }
-.sfco .hospedajes .podes-hospedarte{
+.lugares-recomendados .hospedajes .podes-hospedarte{
     grid-column: span 2;
     font-size: 22px;
     font-weight: 30px;
@@ -262,13 +262,33 @@ main .pregunta {
     padding: 1px;
     border: 1px solid green;
 }
-.sfco .hospedajes .contacto-sfco{
+.lugares-recomendados .hospedajes .contacto{
+    grid-template-columns: 1fr;
     font-size: 20px;
     text-align: left;
-    padding: 12x;
+    padding: 10x;
     margin: 15px;
 }
-
+.lugares-recomendados .hospedajes-pnc{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6% 94%; 
+}
+.lugares-recomendados .hospedajes-pnc .podes-hospedarte-pnc{
+    grid-column: span 2;
+    font-size: 22px;
+    font-weight: 30px;
+    margin: 10px;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid green;
+}
+.lugares-recomendados .texto-pnc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+    font-size: 20px;
+    margin: 10px;
+}
 
 
 
