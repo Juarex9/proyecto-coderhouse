@@ -130,7 +130,7 @@ footer {
 footer a i {
     color: white;
     font-size: 30px;
-    margin: 5px;
+    padding: 5px;
 }
 
 /**-----preguntas.html-----*/
@@ -203,6 +203,86 @@ main .pregunta {
     font-weight: 50px;
     margin: 10px;
 }
+
+/**---------san-francisco--------*/
+.sfco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+}
+.sfco .presentacion-sfco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.sfco .texto-sfco{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 30px;
+}
+.sfco .descripcion-sfco{
+    font-size: 18px;
+}
+.sfco .titulo-sfco{
+    font-size: 22px;
+    font-weight: 40px;
+}
+.sfco .indicacion-sfco{
+    font-size: 18px;
+}
+.sfco .hospedajes img{
+    width: 100%;
+    height: 200px;
+}
+.sfco .hospedajes .tarjeta-sfco{
+    font-size: 20px;
+    width: 250px;
+    height: 270px;
+    border: 1px solid green;
+    text-align: center;
+    margin: 10px;
+}
+.sfco .hospedajes .titulo-hostal{
+    padding: 10px;
+}
+.sfco .hospedajes{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+}
+.sfco .hospedajes .podes-hospedarte{
+    grid-column: span 2;
+    font-size: 22px;
+    font-weight: 30px;
+    margin: 10px;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid green;
+}
+.sfco .hospedajes .contacto-sfco{
+    font-size: 20px;
+    text-align: left;
+    padding: 12x;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
