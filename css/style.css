@@ -312,8 +312,6 @@ main .pregunta {
 
 
 
-
-
 @media screen and (max-width:435px) {
     .contacto {
         grid-template-columns: 1fr;
