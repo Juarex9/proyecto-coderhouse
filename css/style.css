@@ -210,7 +210,7 @@ main .pregunta {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 20px;
-    padding: 10px;
+    margin: 10px;
 }
 .lugares-recomendados .presentacion{
     font-size: 25px;
@@ -265,7 +265,7 @@ main .pregunta {
     flex-direction: column;
     font-size: 20px;
     text-align: left;
-    padding: 10x;
+
     margin: 15px;
 }
 .lugares-recomendados .hospedajes-pnc{
@@ -285,6 +285,11 @@ main .pregunta {
     font-weight: 40px;
     font-size: 20px;
 }
+
+
+
+
+
 
 
 
@@ -343,7 +348,6 @@ main .pregunta {
     header nav ul {
         flex-direction: column;
     }
-
     header nav ul li {
         margin: 0;
         text-align: center;
@@ -354,10 +358,53 @@ main .pregunta {
     .fixed img {
         width: 50px;
     }
-
     .fixed {
         bottom: 30px;
         right: 30px;
     }
 }
 
+@media screen and (max-width:1100px) {
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapa iframe{
+        height: 400px;
+        width: 400px;
+    }
+    .mapa h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1145px) {
+    .lugares-recomendados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:575px){
+    .lugares-recomendados .hospedajes{
+        display: flex;
+        flex-direction: column;     
+        justify-content: center;
+    } 
+    .lugares-recomendados .hospedajes .tarjeta{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .grid-galeria{
+        display: flex;
+        flex-direction: column;
+    }
+}
