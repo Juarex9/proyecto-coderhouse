@@ -1,0 +1,27 @@
+header {
+  nav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+  background-color: rgb(14, 120, 39);
+  text-decoration: none;
+  color: white !important;
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn-outline-light {
+    &:hover {
+      background-color: rgb(71, 150, 89);
+      color: white;
+    }
+  }
+}

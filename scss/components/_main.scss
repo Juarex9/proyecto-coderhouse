@@ -1,0 +1,75 @@
+main {
+    .hero {
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        background-image: url(../img/yungas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            color: white;
+            font-size: 148px;
+            font-weight: 750;
+        }
+    }
+
+    .lugares {
+        color: rgb(71, 150, 89);
+        .boton:hover{
+            background-color: rgb(71, 150, 89);
+            color: white;
+        }
+        div {
+            a{
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+                border: 2px solid black;
+                border-radius: 8px;
+            }
+            img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+        h2 {
+            background-color: rgb(71, 150, 89);
+            color: white;
+            text-align: left;
+            padding: 3px;
+            font-size: 30px;
+        }
+
+        .contenedor-lugares {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            div{
+                font-size: 20px;
+                width: 250px;
+                height: 350px;
+                border: 1px solid gray;
+                text-align: center;
+                margin: 20px;
+                h3{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .fixed{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        img{
+            width: 60px;
+        }    
+    }
+}
