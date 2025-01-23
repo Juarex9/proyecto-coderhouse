@@ -1,0 +1,15 @@
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    
+    .texto {
+        font-size: 30px;
+        padding: 60px;
+        font-weight: 60px;
+    }
+
+    section {
+        padding: 30px;
+    }
+}

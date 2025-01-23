@@ -133,15 +133,7 @@ footer a i {
     margin: 5px
 }
 
-/**-----preguntas.html-----*/
-.main-preguntas {
-    color: black;
-}
 
-main .pregunta {
-    text-transform: uppercase;
-    color: green;
-}
 
 /**----galeria.html-----*/
 .grid-galeria {
