@@ -1,8 +1,5 @@
 .contacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    
+    @include grid (grid, 1fr 1fr, auto);
     .texto {
         font-size: 30px;
         padding: 60px;

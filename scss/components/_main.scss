@@ -13,7 +13,7 @@ main {
         align-items: center;
 
         h2 {
-            color: white;
+            color: $color-terciario;
             font-size: 148px;
             font-weight: 750;
         }
@@ -22,7 +22,7 @@ main {
     .lugares {
         color: rgb(71, 150, 89);
         .boton:hover{
-            background-color: rgb(71, 150, 89);
+            background-color: $color-secundario;
             color: white;
         }
         div {
@@ -39,8 +39,8 @@ main {
             }
         }
         h2 {
-            background-color: rgb(71, 150, 89);
-            color: white;
+            background-color: $color-secundario;
+            color: $color-terciario;
             text-align: left;
             padding: 3px;
             font-size: 30px;

@@ -1,7 +1,5 @@
 .lugares-recomendados{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    @extend %grid;
     gap: 20px;
     margin: 10px;
     .texto{
@@ -26,9 +24,7 @@
         }
     }
     .hospedajes{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: auto;
+        @include grid (grid, 1fr 2fr, auto);
         .podes-hospedarte{
             grid-column: span 2;
             font-size: 22px;
@@ -62,9 +58,7 @@
         }
     }
     .hospedajes-pnc{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content; 
+        @include grid (grid, 1fr, max-content);
         .podes-hospedarte-pnc{
             font-size: 22px;
             text-align: center;

@@ -1,7 +1,5 @@
 .mapa{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    @include grid (grid, 1fr 1fr, auto);
     margin: 10px;
     gap: 20px;
 

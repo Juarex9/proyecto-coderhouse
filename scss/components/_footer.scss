@@ -1,8 +1,8 @@
 footer {
-    background-color: rgb(14, 120, 39);
+    background-color: $color-principal;
     a{
         i{
-            color: white;
+            color: $color-terciario;
             font-size: 30px;
             margin: 5px
         }

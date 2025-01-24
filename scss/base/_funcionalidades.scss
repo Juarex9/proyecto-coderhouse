@@ -1,0 +1,16 @@
+$color-principal: rgb(14, 120, 39);
+$color-secundario: rgb(71, 150, 89);
+$color-terciario: white;
+
+@mixin grid ($grid, $columnas, $filas){
+    display: $grid;
+    grid-template-columns: $columnas;
+    grid-template-rows: $filas;
+}
+
+%grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
