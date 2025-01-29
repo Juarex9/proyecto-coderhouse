@@ -1,4 +1,5 @@
 .contacto {
+    margin-bottom: 12.5%;
     @include grid (grid, 1fr 1fr, auto);
     .texto {
         font-size: 30px;

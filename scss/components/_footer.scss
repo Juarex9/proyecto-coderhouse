@@ -1,12 +1,17 @@
 footer {
     background-color: $color-principal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     a{
         i{
             color: $color-terciario;
-            font-size: 30px;
-            margin: 5px
+            font-size: 60px;
+            margin: 5px;
+            transition: 1s;
         }
     }
 }
+
 
 

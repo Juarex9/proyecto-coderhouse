@@ -40,7 +40,7 @@ header nav {
 main .hero {
   text-align: center;
   width: 100%;
-  height: 500px;
+  height: 680px;
   background-image: url(../img/yungas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,6 +54,19 @@ main .hero h2 {
   color: white;
   font-size: 148px;
   font-weight: 750;
+}
+main .presentacion {
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+main .presentacion div {
+  width: 50%;
+}
+main .presentacion div h2 {
+  font-size: 45px;
 }
 main .lugares {
   color: rgb(71, 150, 89);
@@ -90,12 +103,19 @@ main .lugares .contenedor-lugares div {
   font-size: 20px;
   width: 250px;
   height: 350px;
-  border: 1px solid gray;
+  border: 2px solid gray;
   text-align: center;
   margin: 20px;
+  transition: 1s;
 }
 main .lugares .contenedor-lugares div h3 {
   margin-bottom: 20px;
+}
+main .lugares .contenedor-lugares div:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 9px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 9px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 9px 12px 0px rgba(0, 0, 0, 0.75);
 }
 main .fixed {
   position: fixed;
@@ -104,15 +124,23 @@ main .fixed {
 }
 main .fixed img {
   width: 60px;
+  transition: 1s;
+}
+main .fixed img:hover {
+  transform: scale(1.1);
 }
 
 footer {
   background-color: rgb(14, 120, 39);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 footer a i {
   color: white;
-  font-size: 30px;
+  font-size: 60px;
   margin: 5px;
+  transition: 1s;
 }
 
 .lugares-recomendados {
@@ -174,25 +202,9 @@ footer a i {
   text-align: left;
   margin: 15px;
 }
-.lugares-recomendados .hospedajes-pnc {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: max-content;
-}
-.lugares-recomendados .hospedajes-pnc .podes-hospedarte-pnc {
-  font-size: 22px;
-  text-align: center;
-  padding: 1px;
-  border: 1px solid green;
-}
-.lugares-recomendados .hospedajes-pnc .texto-pnc {
-  display: flex;
-  flex-direction: column;
-  font-weight: 40px;
-  font-size: 20px;
-}
 
 .contacto {
+  margin-bottom: 12.5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;

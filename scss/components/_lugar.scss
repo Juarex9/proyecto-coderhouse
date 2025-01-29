@@ -57,25 +57,7 @@
             margin: 15px;
         }
     }
-    .hospedajes-pnc{
-        @include grid (grid, 1fr, max-content);
-        .podes-hospedarte-pnc{
-            font-size: 22px;
-            text-align: center;
-            padding: 1px;
-            border: 1px solid green;
-        }
-        .texto-pnc{
-            display: flex;
-            flex-direction: column;
-            font-weight: 40px;
-            font-size: 20px;
-        }
-    }
 }
-
-
-
 
 
 
