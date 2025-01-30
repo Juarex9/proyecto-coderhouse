@@ -281,6 +281,16 @@ footer a i {
     font-weight: 650;
   }
 }
+@media screen and (max-width: 1150px) {
+  main .presentacion {
+    display: flex;
+    flex-direction: column;
+  }
+  main .presentacion img {
+    width: 150px;
+    height: 150px;
+  }
+}
 @media screen and (max-width: 520px) {
   .fixed {
     bottom: 30px;
