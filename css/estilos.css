@@ -131,6 +131,9 @@ main .fixed img:hover {
 }
 
 footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background-color: rgb(14, 120, 39);
   display: flex;
   justify-content: space-around;
